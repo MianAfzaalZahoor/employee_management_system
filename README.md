@@ -23,7 +23,7 @@ This is the backend component of an Employee Management System built with Node.j
 1.  Get the code. Clone this git repository and check out the latest release:
 
     ```bash
-    git clone https://github.com/MianAfzaalZahoor/ems.git
+    git clone git@github.com:MianAfzaalZahoor/employee_management_system.git
     ```
 
 2.  Install the required packages by running the following command in the project root directory:
