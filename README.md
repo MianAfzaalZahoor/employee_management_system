@@ -7,6 +7,7 @@ This is the backend component of an Employee Management System built with Node.j
 - [Technology stack](#technology-stack)
 - [Installation](#installation)
 - [Testing](#testing)
+- [Swagger Documentation](#swagger-documentation)
 
 ## Technology stack
 
@@ -71,4 +72,18 @@ To run tests for the application, follow these steps:
     ```
 
    This will execute the tests and provide you with information about the test results.
+
+## Swagger Documentation
+
+Swagger is a powerful tool for generating interactive documentation for your APIs.
+
+1. After starting the server (as mentioned in the installation steps), access the Swagger documentation at:
+
+    ```
+    http://localhost:5000/api-docs
+    ```
+
+   This URL will take you to the interactive Swagger documentation where you can explore the available endpoints, their input parameters, response structures, and even test the endpoints directly.
+
+2. Use the Swagger documentation to better understand and interact with your API, making development and integration easier for both you and other developers.
 
