@@ -6,7 +6,7 @@ This is the backend component of an Employee Management System built with Node.j
 
 - [Technology stack](#technology-stack)
 - [Installation](#installation)
-
+- [Testing](#testing)
 
 ## Technology stack
 
@@ -19,14 +19,13 @@ This is the backend component of an Employee Management System built with Node.j
 
 ### Setting up the development environment
 
-
 1.  Get the code. Clone this git repository and check out the latest release:
 
     ```bash
     git clone https://github.com/MianAfzaalZahoor/ems.git
     ```
 
-2.  Install the required gems by running the following command in the project root directory:
+2.  Install the required packages by running the following command in the project root directory:
 
     ```bash
     cd ems
@@ -41,18 +40,35 @@ This is the backend component of an Employee Management System built with Node.j
 
 4.  Add your database configuration details and other environment variables to `.env.production`. You will probably only need to fill in the password for the database(s).
 
-5.  Create and populate database with seeds using:
+5.  Create and populate the database with seeds using:
 
-```
-npm run seed
-```
+    ```bash
+    npm run seed
+    ```
 
-6.  Run server:
+6.  Run the server:
 
-    `npm start`
+    ```bash
+    npm start
+    ```
 
-7. Access the API at
+7. Access the API at:
 
-```
-http://localhost:5000
-```
+    ```
+    http://localhost:5000
+    ```
+
+## Testing
+
+To run tests for the application, follow these steps:
+
+1. Make sure you have completed the installation steps above.
+
+2. Run the following command in the project root directory:
+
+    ```bash
+    npm test
+    ```
+
+   This will execute the tests and provide you with information about the test results.
+
