@@ -29,7 +29,7 @@ This is the backend component of an Employee Management System built with Node.j
 2.  Install the required packages by running the following command in the project root directory:
 
     ```bash
-    cd ems
+    cd employee_management_system
     npm install
     ```
 
